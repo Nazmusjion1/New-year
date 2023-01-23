@@ -12,7 +12,7 @@
     left: 1600px;
     top: 808px;
     background-size: cover;
-   
+
 
 }
 
@@ -128,28 +128,131 @@
 .title-description {
     color: #737272;
     font-weight: 500;
-
 }
+
 /* image section */
-.images-setup{
+
+
+.images-setup {
     position: absolute;
-width: 1140px;
-height: 300px;
-left: 230px;
-top: 2222.26px;
-background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('../images/gradient2.png');
-border-radius: 8px;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2222.26px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/gradient2.png');
+    border-radius: 8px;
 }
 
-.img-title{
+.img-title {
     position: absolute;
-width: 459px;
-height: 94px;
-left: 294px;
-top: 2281.26px;
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
+    width: 459px;
+    height: 94px;
+    left: 294px;
+    top: 2281.26px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #FFFFFF;
+}
+
+.btn-2nd {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2399.26px;
+    color: #F15B22;
+}
+
+
+/* footer -section */
+.background{
+    position: absolute;
+width: 1600px;
+height: 577px;
+left: 0px;
+top: 2652.26px;
+background-size: cover;
+background: #151414;
+}
+.footer-title {
+    position: absolute;
+    width: 148px;
+    height: 53px;
+    left: 230px;
+    top: 2782.26px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+   
+}
+.p-sub-title{
+    position: absolute;
+width: 485px;
+height: 78px;
+left: 230px;
+top: 2851.26px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+
+}
+.info-1{
+    position: absolute;
+width: 184px;
+height: 26px;
+left: 230px;
+top: 2953.26px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF
+}
+.info-2{
+    position: absolute;
+    width: 186px;
+height: 26px;
+left: 230px;
+top: 2995.26px;
 
 color: #FFFFFF;
+
+}
+.images{
+    
+position: absolute;
+width: 175px;
+height: 46px;
+left: 230px;
+top: 3053.26px;
+
+
+}
+.footer-sub-title{
+    position: absolute;
+width: 123px;
+height: 29.04px;
+left: 1046px;
+top: 2782px;
+color: #FFFFFF;
+}
+.form{
+    position: absolute;
+width: 325px;
+height: 64.08px;
+left: 1046px;
+top: 2842.08px;
+
+}
+.btn-2nd{
+    position: absolute;
+width: 170.11px;
+height: 64.08px;
+left: 1046px;
+top: 2922.18px;
+background: #FFFFFF;
+border-radius: 8px;
 }
